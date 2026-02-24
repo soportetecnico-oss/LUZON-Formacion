@@ -255,11 +255,11 @@
       font-size: 1rem;
     }
 
-    /* Firma decorativa */
     .hero-firma {
-      position: absolute;
-      bottom: 40px;
-      left: 80px;
+      position: relative;
+      bottom: auto;
+      left: auto;
+      margin-top: 8px;
       opacity: 0;
       animation: fadeUp 1s 1.1s forwards;
     }
@@ -284,7 +284,9 @@
       }
       .hero-left { padding: 60px 32px 40px; }
       .hero-right::after { background: linear-gradient(to bottom, var(--crema) 0%, transparent 30%); }
-      .hero-firma { left: 32px; }
+      .hero-firma { display: none; }
+      .hero-cta-group { width: 100%; }
+      .btn-terracota { width: 100%; text-align: center; }
     }
 
     /* ──────────────────────────────
@@ -947,7 +949,7 @@
   <!-- ── HERO ── -->
   <section id="hero">
     <div class="hero-left">
-      <p class="hero-eyebrow">Crianza Consciencia – Del Caos a la Calma</p>
+      <p class="hero-eyebrow">Crianza con Ciencia</p>
       <h1>Criar con calma<br>también <em>es posible<br>para ti.</em></h1>
       <p class="hero-sub">Si sientes que lo intentaste todo y nada funciona, no es que falles como madre. Es que nadie te enseñó cómo funciona realmente el cerebro de tu hijo — ni el tuyo.</p>
       <div class="hero-cta-group">
